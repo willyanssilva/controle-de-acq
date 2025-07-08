@@ -16,23 +16,40 @@
             <h4>Fiscalização Controle de ACQ</h4>
 
             <label for="">Data</label>
-            <input type="datetime" name="Data" placeholder="dd/mm/aaaa" required> 
+            <input type="date" name="Data" placeholder="dd/mm/aaaa" required> 
 
             <label for="">Nome do Fiscal Tel</label>
             <input type="text" name="Nome do Fiscal Tel" placeholder="Nome do Fiscal Tel" required>
 
+            <label>
+            Contrato :
+            <br>
+            
+            <select name="Contrato">
+                <option value="LITORAL">LITORAL</option>
+                <option value="CAPIAL">CAPITAL</option>
+                <option value="SOROCABA">SOROCABA</option>
+                <option value="PIRACICABA">PIRACICABA</option>
+                <option value="INTERIOR">INTERIOR</option>
+                <option value="JUNDIAÍ">JUNDIAÍ</option>
+                
+            </select>
+        </label>
 
-            <label for="">Contrato:</label>
-            <input type="text" name="Contrato" placeholder="Litoral, Capital, Sorocaba, Piracicaba..." required >
+        <br>
+        <br>
+
+
+            
 
             <label for="">ACQ:</label>
             <input type="text" name="ACQ" placeholder="Número da ACQ" required >
 
             <label for="">Nome do Fiscal Vivo</label>
-            <input type="text" name="Nome do Fiscal Vivo" placeholder="Fiscal que está sendo acompamhado" required>
+            <input type="text" name="Nome do Fiscal Vivo" placeholder="Fiscal que está sendo acompanhado" required>
 
-            <label for="">Terminal/Pon</label>
-            <input type="tel" name="Terminal/Pon" placeholder="Terminal/Pon" required>
+            <label for="">Terminal/Pon/OR</label>
+            <input type="tel" name="Terminal/Pon/OR" placeholder="Terminal/Pon/OR" required>
 
             <label for="">Nome do Supervisor Responsável Tel</label>
             <input type="text" name="Nome do Supervisor Responsável Tel" placeholder="Nome do Supervisor" required>

@@ -1,11 +1,13 @@
-*{
+* {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 	font-family: 'poppins', sans-serif;
 	font-size: 18px;
 }
-body{
+
+body {
+
 	background-color: #006cb5;
 	height: 100vh;
 	display: flex;
@@ -13,12 +15,16 @@ body{
 	justify-content: center;
 }
 
-img{
+img {
+
 	width: 150px;
-	
+
 }
-.container{
+
+.container {
+
 	background-image: url(./assets/TEL.jpg);
+
 
 	width: 500px;
 	padding: 30px;
@@ -26,29 +32,52 @@ img{
 	border-radius: 10px;
 	background-color: #003b5b;
 }
-h4{
+
+h4 {
 	margin-top: 50px;
 	margin-bottom: 10px;
 	font-size: 24px;
 	color: white;
 }
-input{
+
+input,
+select {
+
+
+	border-radius: 6px;
 	width: 100%;
 	padding: 5px;
 	margin-bottom: 10px;
 }
-textarea{
-	width: 100%;
-	padding: 10px;
-	
+
+
+
+
+option,
+select,
+input {
+	color: grey;
+	/* Cor do texto */
 }
 
-label{
+
+
+textarea {
+	width: 100%;
+	padding: 10px;
+
+}
+
+label {
 	color: white;
 }
 
+#enviar.ocultar {
+	display: none;
+}
 
-#submit{
+
+#submit {
 	border: none;
 	background-color: rgb(44, 167, 44);
 	color: white;
@@ -56,6 +85,7 @@ label{
 	margin-top: 10px;
 	border-radius: 5px;
 }
-#submit:hover{
+
+#submit:hover {
 	background-color: #044720;
 }
