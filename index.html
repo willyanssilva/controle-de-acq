@@ -1,67 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Controle de ACQ</title>
+    <title>Controle de DDS</title>
 </head>
+
 <body>
-    
-        <div class="container">
-          <form method="post" action="" name="contact-form">
+
+    <div class="container">
+        <form method="post" action="" name="contact-form">
 
             <img src="./assets/TEL2.jpg" alt="">
 
-            <h4>Fiscalização Controle de ACQ</h4>
+            <h4>CONTROLE DE DDS, ATA E CHECKLIST</h4>
 
             <label for="">Data</label>
-            <input type="date" name="Data" placeholder="dd/mm/aaaa" required> 
-
-            <label for="">Nome do Fiscal Tel</label>
-            <input type="text" name="Nome do Fiscal Tel" placeholder="Nome do Fiscal Tel" required>
+            <input type="datetime-local" name="Data" placeholder="dd/mm/aaaa" required>
 
             <label>
-            Contrato :
-            <br>
-            
-            <select name="Contrato">
-                <option value="LITORAL">LITORAL</option>
-                <option value="CAPIAL">CAPITAL</option>
-                <option value="SOROCABA">SOROCABA</option>
-                <option value="PIRACICABA">PIRACICABA</option>
-                <option value="INTERIOR">INTERIOR</option>
-                <option value="JUNDIAÍ">JUNDIAÍ</option>
-                
-            </select>
-        </label>
+                Fiscal TEL :
+                <br>
 
-        <br>
-        <br>
+                <select name="Fiscal TEL" required>
+                    <option value="">Selecione uma opção</option >
+                    <option value="WILLYANS">WILLYANS</option >
+                    <option value="MARTINEZ">MARTINEZ</option >
+                    <option value="RENAN">RENAN</option>
+                    <option value="BRUNNO">BRUNNO</option>
+                    <option value="MARCOS CAPRIO">MARCOS CAPRIO</option>
+                    <option value="CLEBER">CLEBER</option>
+                    <option value="HONORIO">HONORIO</option>
+                    <option value="REGINALDO">REGINALDO</option>
+                    <option value="RONALDO">RONALDO</option>
+                    <label>
+                </select>
+                Contrato :
+                <br>
+
+                <select name="Contrato" required>
+                    <option value="">Selecione uma opção</option >
+                    <option value="LITORAL">LITORAL</option>
+                    <option value="CAPITAL">CAPITAL</option>
+                    <option value="SOROCABA">SOROCABA</option>
+                    <option value="PIRACICABA">PIRACICABA</option>
+                    <option value="INTERIOR">INTERIOR</option>
+                    <option value="JUNDIAÍ">JUNDIAÍ</option>
+
+                </select>
+
+                <br>
+
+                <label for="">Nome do Técnico</label>
+                <input type="text" name="Nome do Técnico" placeholder="Nome do Técnico" required>
+
+                <label for="">ID do Técnico</label>
+                <input type="tel" name="ID do Técnico" placeholder="ID do Técnico" required>
+
+                <label for="">Tipo de Serviço</label>
+                <select name="Tipo de Serviço" required>
+                    <option value="">Selecione uma opção</option >
+                    <option value="DDS">DDS</option>
+                    <option value="ATA">ATA</option>
+                    <option value="CHACKLIST">CHECKLIST</option>
 
 
-            
+                </select>
 
-            <label for="">ACQ:</label>
-            <input type="text" name="ACQ" placeholder="Número da ACQ" required >
-
-            <label for="">Nome do Fiscal Vivo</label>
-            <input type="text" name="Nome do Fiscal Vivo" placeholder="Fiscal que está sendo acompanhado" required>
-
-            <label for="">Terminal/Pon/OR</label>
-            <input type="tel" name="Terminal/Pon/OR" placeholder="Terminal/Pon/OR" required>
-
-            <label for="">Nome do Supervisor Responsável Tel</label>
-            <input type="text" name="Nome do Supervisor Responsável Tel" placeholder="Nome do Supervisor" required>
-            
-            <!--<label for="">Observação</label>
+                  <!--<label for="">Observação</label>
             <textarea name="Observação"  placeholder= "Digite aqui se houver alguma observação">
             </textarea> -->
-            <input type="submit" value="ENVIAR" id="submit"> 
-              </form>
-          </div>
+                <input type="submit" value="ENVIAR" id="submit">
+        </form>
+    </div>
 
-          <script src="script.js"></script>
-      
+    <script src="script.js"></script>
+
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              

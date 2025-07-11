@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwScHu4cUVNVFnsYR7wzY_oh8EDB8xcjZ3ZH1uJqLzsFESFdEam_gu2VAHmEZCci-YX/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz6iSRLUO_Ru6HGWdjcwlAW1iNSSm-vLnn0B2onwUXOcYg4-uCBWhTSicCT0L6CD3zG/exec';
 const form = document.forms['contact-form'];
 let enviado = false;
 
@@ -25,6 +25,8 @@ form.addEventListener('submit', e => {
     enviado = false; // Reabilita o envio em caso de erro
   });
 });
+
+
 
 
 
